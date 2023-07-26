@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #282b30;
+}
+
+/* .container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+.weather-app {
+    height: 500px;
+    width: 350px;
+    margin: 75px auto;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    background-color: #36393e;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    
+}
+
+.weather-app h1 {
+    text-align: center;
+    color: #7289da;
+    margin: 15px 0px 15px 0px;
+}
+
+#cityInput {
+    background-color: #424549;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.weather-app button {
+    background-color: #7289da;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+#cityInput::placeholder {
+    color: #888f98;
+}
